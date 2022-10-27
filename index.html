@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <script type="text/javascript" src="app.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Get - JavaScript</title>
+</head>
+<style>
+  div {
+    color: white
+  }
+
+  .div-base {
+    background-color: black;
+    width: 50%;
+    border-radius: 2rem;
+    margin-left: 20%;
+    margin-right: 50%;
+  }
+
+  /* .shadow {
+      box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+      }
+
+ input:hover{
+    width: 20rem;
+    height: 4rem;
+  }
+
+button {
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2rem;
+} */
+
+  button {
+    background-color: #edd818;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: cursive;
+  }
+
+  input {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    border-radius: 6px;
+  }
+</style>
+
+<body style="width: 100%; height: 100%;">
+
+  <div style="width: 100%; height: 100%">
+    <div style="background-color: black" class="div-base">
+      <div style="text-align: center">
+        <div style="width: 100%">
+          <input name="nome" id="nome" type="text" placeholder="Insira seu email" /></br>
+          <input name="password" id="password" type="password" placeholder="Insira sua senha" />
+        </div>
+        <element onclick="myScript"></element>
+        <div style="width: 100%">
+          <button onclick="validaForm()">ACESSAR</button>
+          <button onclick="limpaForm()">LIMPAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
